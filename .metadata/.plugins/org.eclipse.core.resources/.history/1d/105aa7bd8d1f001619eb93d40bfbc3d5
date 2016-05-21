@@ -1,0 +1,14 @@
+package info.javagrasp.singleton;
+
+public class DBSingletonDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DBSingleton instance = DBSingleton.getInstance();
+		
+		System.out.println(instance.hashCode());
+		DBSingleton _2instance = DBSingleton.getInstance();
+		System.out.println(_2instance.hashCode());
+	}
+
+}

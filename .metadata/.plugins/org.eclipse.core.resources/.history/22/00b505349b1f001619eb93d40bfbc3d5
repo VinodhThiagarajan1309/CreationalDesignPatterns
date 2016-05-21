@@ -1,0 +1,15 @@
+package info.javagrasp.singleton;
+
+import java.sql.Connection;
+
+public class DBSingletonDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DBSingleton instance = DBSingleton.getInstance();
+		
+		Connection conn = instance.getConnection();
+		
+	}
+
+}

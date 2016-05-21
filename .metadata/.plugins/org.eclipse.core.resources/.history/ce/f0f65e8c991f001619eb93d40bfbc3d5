@@ -1,0 +1,27 @@
+package info.javagrasp.singleton;
+
+public class DBSingleton {
+
+	//Eagerly Loaded
+	//private static DBSingleton instance = new DBSingleton();
+	
+	//Lazy Loaded
+	private static DBSingleton instance = null;
+	
+	private DBSingleton(){
+		
+	}
+	
+	public static DBSingleton getInstance(){
+		//Lazy Loading
+		if(null == instance){
+			//thread safe
+			synchronized (DBSingleton.class) {
+				if(null == instance){
+					instance = new DBSingleton();
+				}
+			}
+		}
+		return instance;
+	}
+}

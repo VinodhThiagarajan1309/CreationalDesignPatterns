@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat May 21 16:34:32 CDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0154-d53d-b97f-00000eb428d8 
+on database directory memory:/Users/vinodhthiagarajan/Documents/WorkSpaces/GitHubProjects/DesignPatterns/CreationalPatterns/codejava/webdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
+Loaded from file:/Users/vinodhthiagarajan/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_77-b03
+user.dir=/Users/vinodhthiagarajan/Documents/WorkSpaces/GitHubProjects/DesignPatterns/CreationalPatterns
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
