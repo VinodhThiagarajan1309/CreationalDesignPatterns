@@ -1,0 +1,10 @@
+package info.javagrasp.builder;
+
+public class LunchOrderTeloBean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

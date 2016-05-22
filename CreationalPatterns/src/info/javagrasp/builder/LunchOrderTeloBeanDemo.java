@@ -1,0 +1,15 @@
+package info.javagrasp.builder;
+
+public class LunchOrderTeloBeanDemo {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    LunchOrderTeloBean lunchOrderTelo = 
+	    new LunchOrderTeloBean("Wheat" , "Lettuce" , "Mustard" , "Ham");
+	    System.out.println(lunchOrderTelo.getBread());
+		System.out.println(lunchOrderTelo.getCondiments());
+		System.out.println(lunchOrderTelo.getDressing());
+		System.out.println(lunchOrderTelo.getMeat());
+	}
+}
